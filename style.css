@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(to right, red, blue);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+}
+
+.current{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+    padding:0 15px;
+    border: 2px dotted black;
+    background-color: rgba(57,198,198,0.4);
+    border-radius: 20px;
+    width: 500px;
+}
+
+h2{
+    color: rgb(34,47,26);
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
